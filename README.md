@@ -6,6 +6,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/UmbrellaSkiies/saas-landing-page?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/UmbrellaSkiies?label=Followers&logoColor=blue&style=flat)
 
+![SaaS-Landing-Page.](https://github.com/UmbrellaSkiies/saas-landing-page/blob/main/public/cover.png)
+
 Welcome to the AI-Powered SEO Tools Project! This project is a dynamic and visually appealing web application designed to showcase revolutionary AI-driven SEO tools. The project leverages modern web technologies, including Next.js, Tailwind CSS, Framer Motion, and TypeScript, to create an engaging user experience.
 
 ## Table of Contents
