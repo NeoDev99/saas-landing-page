@@ -6,7 +6,7 @@ import "@/styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SaaS Landing Page",
+  title: "AI Landing Page",
   description: "A landing page for a SaaS startup created with Next JS",
 };
 

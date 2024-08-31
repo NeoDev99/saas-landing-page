@@ -15,7 +15,7 @@ const Footer = () => {
 
                     <div className='flex gap-2 items-center lg:flex-1'>
                         <Logo className='size-6' />
-                        <div>AI SaaS Landing Page</div>
+                        <div>AI Landing Page</div>
                     </div>
 
                     <div>

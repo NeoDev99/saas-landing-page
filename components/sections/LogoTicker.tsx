@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 import acmeLogo from '@/public/assets/logos/logo-acme.png';
 import apexLogo from '@/public/assets/logos/logo-apex.png';
@@ -19,26 +20,41 @@ const LogoTicker = () => {
                         <h2>Trusted by top innovative teams</h2>
                     </div>
                     
-                    <div className='flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
-                        <div className='flex flex-none gap-14'>
+                    <div className='flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
+                        <motion.div
+                            initial={{ translateX: "-50%" }}
+                            animate={{ translateX: "0" }}
+                            transition={{
+                                repeat: Infinity,
+                                duration: 30,
+                                ease: 'linear',
+                            }}
+                            className='flex flex-none gap-14 pr-14 -translate-x-1/2'
+                        >
                             {[
                                 acmeLogo,
-                                apexLogo,
-                                celestialLogo,
-                                quantumLogo,
                                 pulseLogo,
-                                echoLogo
-                            ].map((logo) => (
+                                echoLogo,
+                                celestialLogo,
+                                apexLogo,
+                                quantumLogo,
+                                acmeLogo,
+                                pulseLogo,
+                                echoLogo,
+                                celestialLogo,
+                                apexLogo,
+                                quantumLogo,
+                            ].map((logo, index) => (
                                 <Image
                                 src={logo.src}
-                                key={logo.src}
+                                key={`${logo.src}-${index}`} // Making key unique by adding index
                                 alt="Trusted company logo"
                                 width={80}
                                 height={80}
                                 className="h-6 w-auto"
                             />
                             ))}
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>
