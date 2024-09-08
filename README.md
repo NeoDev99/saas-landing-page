@@ -1,10 +1,10 @@
 # AI-Powered SEO Tools Project
 
-![GitHub repo size](https://img.shields.io/github/repo-size/UmbrellaSkiies/saas-landing-page)
-![GitHub stars](https://img.shields.io/github/stars/UmbrellaSkiies/saas-landing-page?style=social)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/UmbrellaSkiies/saas-landing-page)
-![GitHub forks](https://img.shields.io/github/forks/UmbrellaSkiies/saas-landing-page?style=social)
-![GitHub followers](https://img.shields.io/github/followers/UmbrellaSkiies?label=Followers&logoColor=blue&style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/NeoDev99/saas-landing-page)
+![GitHub stars](https://img.shields.io/github/stars/NeoDev99/saas-landing-page?style=social)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/NeoDev99/saas-landing-page)
+![GitHub forks](https://img.shields.io/github/forks/NeoDev99/saas-landing-page?style=social)
+![GitHub followers](https://img.shields.io/github/followers/NeoDev99?label=Followers&logoColor=blue&style=flat)
 
 Welcome to the AI-Powered SEO Tools Project! This project is a dynamic and visually appealing web application designed to showcase revolutionary AI-driven SEO tools. The project leverages modern web technologies, including Next.js, Tailwind CSS, Framer Motion, and TypeScript, to create an engaging user experience.
 
